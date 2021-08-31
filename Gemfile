@@ -27,6 +27,11 @@ gem 'spree_auth_devise', '~> 4.3'
 # gem 'spree_gateway', '~> 3.9'
 # gem 'spree_i18n', '~> 5.0'
 
+gem 'capistrano', '~> 3.11'
+gem 'capistrano-rails', '~> 1.4'
+gem 'capistrano-passenger', '~> 0.2.0'
+gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -47,11 +52,6 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
-  gem 'capistrano', '~> 3.11'
-  gem 'capistrano-rails', '~> 1.4'
-  gem 'capistrano-passenger', '~> 0.2.0'
-  gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 end
 
 group :test do
