@@ -22,13 +22,15 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'spree', '~> 4.2'
-gem 'spree_auth_devise', '~> 4.3'
-# gem 'spree_gateway', '~> 3.9'
-# gem 'spree_i18n', '~> 5.0'
+gem 'spree' # core and API
+gem 'spree_frontend' # Rails storefront (optional)
+gem 'spree_backend' # Rails admin panel (optional)
+gem 'spree_auth_devise', '~> 4.3' # Devise integration (optional)
+# gem 'spree_gateway', '~> 3.9' # payment gateways eg. Stripe, Braintree (optional)
+# gem 'spree_i18n', '~> 5.0' # translation files (optional)
 
 # Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
