@@ -1,21 +1,23 @@
 default:
   navigation:
-    - title: Women
+    - title: Interior
       subtitle: Categories
-      url: /t/women
+      url: /t/categories/interior
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Floor mats
+          :url: /t/categories/interior/floor-mats
+        - :title: Seat covers
+          :url: /t/categories/interior/seat-covers
+        - :title: Steering wheels 
+          :url: /t/categories/interior/steering-wheels
+        - :title: Sun shades
+          :url: /t/categories/interior/sun-shades
+        - :title: Dash covers
+          :url: /t/categories/interior/dash-covers
+        - :title: Shift knobs
+          :url: /t/categories/interior/shift-knobs
+        - :title: Car care
+          :url: /t/categories/interior/car-care
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
@@ -25,18 +27,30 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
+    - title: Exterior
       subtitle: Categories
-      url: /t/men
+      url: /t/categories/exterior
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Side steps (Running boards)
+          :url: /t/categories/exterior/side-steps
+        - :title: Grille guards
+          :url: /t/categories/exterior/grille-guards
+        - :title: Headlights
+          :url: /t/categories/exterior/headlights
+        - :title: Tail lights
+          :url: /t/categories/exterior/tail-lights
+        - :title: Spoilers
+          :url: /t/categories/exterior/spoilers
+        - :title: Wind breakers
+          :url: /t/categories/exterior/wind-breakers
+        - :title: Roof racks
+          :url: /t/categories/exterior/roof-racks
+        - :title: Car covers
+          :url: /t/categories/exterior/car-covers
+        - :title: Mirrors
+          :url: /t/categories/exterior/mirrors
+        - :title: Mud flaps
+          :url: /t/categories/exterior/mud-flaps
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
@@ -46,16 +60,144 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Lighting
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/categories/lighting
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Headlights
+          :url: /t/categories/lighting/headlights
+        - :title: Tail lights
+          :url: /t/categories/lighting/tail-lights
+        - :title: LED lights
+          :url: /t/categories/lighting/led-lights
+        - :title: Fog lights
+          :url: /t/categories/lighting/fog-lights
+        - :title: Off-Road lights
+          :url: /t/categories/lighting/off-road-lights
+        - :title: Accessory Lighting
+          :url: /t/categories/lighting/accessory-lighting
+        - :title: Signal lights
+          :url: /t/categories/lighting/signal-lights
+        - :title: Emergency & Warning lights
+          :url: /t/categories/lighting/emergency-and-warning-lighting
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Performance
+      subtitle: Categories
+      url: /t/categories/performance
+      items:
+        - :title: Brake pads
+          :url: /t/categories/performance/brake-pads
+        - :title: Brake discs
+          :url: /t/categories/performance/brake-discs
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Wheels
+      subtitle: Categories
+      url: /t/categories/wheels
+      items:
+        - :title: Lug nuts & locks
+          :url: /t/categories/wheels/lug-nuts-and-locks
+        - :title: Wheel covers
+          :url: /t/categories/wheels/wheel-covers
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Repair
+      subtitle: Categories
+      url: /t/categories/repairs
+      items:
+        - :title: Oil, fluids & lubricants
+          :url: /t/categories/repairs/oil-fluid-and-lubricants
+        - :title: Wipers & Washers
+          :url: /t/categories/repairs/wipers-and-washers
+        - :title: Air filters
+          :url: /t/categories/repairs/air-filters
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Body
+      subtitle: Categories
+      url: /t/categories/body
+      items:
+        - :title: Mirrors
+          :url: /t/categories/body/mirrors
+        - :title: Headlights
+          :url: /t/categories/body/headlights
+        - :title: Tail lights
+          :url: /t/categories/body/tail-lights
+        - :title: Bumpers
+          :url: /t/categories/body/bumpers
+        - :title: Fenders
+          :url: /t/categories/body/fenders
+        - :title: Trunks & Tailgates
+          :url: /t/categories/body/trunks-and-tailgates
+        - :title: Winder machines
+          :url: /t/categories/body/winder-machines
+        - :title: Automotive paints
+          :url: /t/categories/body/automotive-paints
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Electronics
+      subtitle: Categories
+      url: /t/categories/electronics
+      items:
+        - :title: Stereo
+          :url: /t/categories/electronics/stereo
+        - :title: Amplifiers
+          :url: /t/categories/electronics/amplifiers
+        - :title: Cameras & Driver's Safety
+          :url: /t/categories/exterior/cameras-and-drivers-safety
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Automotive tools
+      subtitle: Categories
+      url: /t/categories/automotive-tools
+      items:
+        - :title: Spark plugs & Ignition tools
+          :url: /t/categories/automotive-tools/spark-plugs-and-ignition-tools
+        - :title: Jacks
+          :url: /t/categories/automotive-tools/jacks
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
