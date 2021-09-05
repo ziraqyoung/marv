@@ -125,12 +125,12 @@ default:
           image: 'meganav/promo_banner_right-third-category.jpg'
     - title: Repair
       subtitle: Categories
-      url: /t/categories/repairs
+      url: /t/categories/repair
       items:
         - :title: Oil, fluids & lubricants
-          :url: /t/categories/repairs/oil-fluid-and-lubricants
+          :url: /t/categories/repair/oil-fluid-and-lubricants
         - :title: Wipers & Washers
-          :url: /t/categories/repairs/wipers-and-washers
+          :url: /t/categories/repair/wipers-and-washers
         - :title: Air filters
           :url: /t/categories/repairs/air-filters
       promo_banners:
@@ -195,7 +195,7 @@ default:
       url: /t/categories/automotive-tools
       items:
         - :title: Spark plugs & Ignition tools
-          :url: /t/categories/automotive-tools/spark-plugs-and-ignition-tools
+          :url: /t/categories/automotive-tools/spark-plugs-and-ignition
         - :title: Jacks
           :url: /t/categories/automotive-tools/jacks
       promo_banners:
