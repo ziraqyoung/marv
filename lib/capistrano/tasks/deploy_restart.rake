@@ -6,4 +6,4 @@ namespace :deploy do
     end
   end
 end
-after "deploy:finishing", "deploy:restart"
+# after "deploy:finishing", "deploy:restart"
