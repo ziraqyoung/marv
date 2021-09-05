@@ -93,10 +93,10 @@ upgrade)
 	su -c "$CMD" - deploy
 	;;
 reopen-logs)
-	sigUSR1
+	sig USR1
 	;;
 *)
 	echo >&2 "Usage: $0 <start|stop|restart|upgrade|force-stop|reopen-logs>"
 	exit 1
 	;;
-esac 
+esac
