@@ -8,6 +8,8 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 server '178.79.174.108', user: 'deploy', roles: %w{app db web}
 
+set :default_env, { 'PASSENGER_INSTANCE_REGISTRY_DIR' => '/home/deploy/passenger_temp' }
+
 
 # role-based syntax
 # ==================
