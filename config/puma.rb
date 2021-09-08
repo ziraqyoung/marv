@@ -30,7 +30,7 @@ if %w[production staging].member?(rails_env)
   preload_app!
 
   # Set up socket location
-  bind "unix://#{shared_dir}/sockets/marv-puma.sock"
+  bind "unix://#{shared_dir}/tmp/sockets/marv-puma.sock"
 
   before_fork do
     # app does not use database, uncomment when needed
