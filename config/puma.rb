@@ -21,8 +21,8 @@ if %w[production staging].member?(rails_env)
   stdout_redirect "#{app_dir}/log/puma.stdout.log", "#{app_dir}/log/puma.stderr.log", true
 
   # Set master PID and state locations
-  pidfile "#{shared_dir}/tmp/pids/puma.pid"
-  state_path "#{shared_dir}/tmp/pids/puma.state"
+  pidfile "#{shared_dir}/pids/puma.pid"
+  state_path "#{shared_dir}/pids/puma.state"
 
   # Change to match your CPU core count
   workers ENV.fetch("WEB_CONCURRENCY") { 2 }
@@ -30,7 +30,7 @@ if %w[production staging].member?(rails_env)
   preload_app!
 
   # Set up socket location
-  bind "unix://#{shared_dir}/tmp/sockets/marv-puma.sock"
+  bind "unix://#{shared_dir}/sockets/marv-puma.sock"
 
   before_fork do
     # app does not use database, uncomment when needed
