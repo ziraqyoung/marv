@@ -97,8 +97,8 @@ namespace :deploy do
 
   desc 'Restart application'
   task :restart do
-    on roles(:app) do
-      execute "#{fetch(:rbenv_prefix)} pumactl -P ~/marv/current/tmp/pids/puma.pid phased-restart"
+    on roles(:app), in: :sequence, wait: 5 do
+      invoke 'puma:restart'
     end
   end
 
