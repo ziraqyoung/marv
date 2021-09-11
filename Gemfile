@@ -22,8 +22,6 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'cloudinary'
-
 gem 'spree', '4.3.0.rc3' # core and API
 gem 'spree_frontend', '4.3.0.rc3' # Rails storefront (optional)
 gem 'spree_backend', '4.3.0.rc3' # Rails admin panel (optional)
@@ -32,6 +30,9 @@ gem 'spree_emails', '4.3.0.rc3' # transactional emails (optional
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
+
+gem 'cloudinary'
+gem 'activestorage-cloudinary-service'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
