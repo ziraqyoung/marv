@@ -158,6 +158,7 @@ GEM
       domain_name (~> 0.5)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
+    i18n_data (0.13.0)
     image_processing (1.12.1)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
@@ -186,6 +187,9 @@ GEM
       activerecord
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
+    kaminari-i18n (0.5.0)
+      kaminari
+      rails
     kgio (2.11.4)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -253,6 +257,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
+    rails-i18n (6.0.0)
+      i18n (>= 0.7, < 2)
+      railties (>= 6.0.0, < 7)
     railties (6.1.4.1)
       actionpack (= 6.1.4.1)
       activesupport (= 6.1.4.1)
@@ -375,6 +382,12 @@ GEM
       spree_core (>= 4.3.0.rc3)
       sprockets (~> 4.0)
       turbolinks (~> 5.2)
+    spree_i18n (5.0.1)
+      i18n_data
+      kaminari-i18n
+      rails-i18n
+      spree_core (>= 4.2.0.rc3, < 5.0)
+      spree_extension
     spring (3.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -465,6 +478,7 @@ DEPENDENCIES
   spree_backend (= 4.3.0.rc3)
   spree_emails (= 4.3.0.rc3)
   spree_frontend (= 4.3.0.rc3)
+  spree_i18n (~> 5.0)
   spring
   sshkit-sudo
   turbolinks (~> 5)
