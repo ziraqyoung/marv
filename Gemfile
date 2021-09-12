@@ -35,6 +35,7 @@ gem 'spree_i18n', '~> 5.0'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
+gem 'mini_magick'
 
 gem 'cloudinary'
 gem 'activestorage-cloudinary-service'
