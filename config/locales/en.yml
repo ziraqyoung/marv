@@ -31,3 +31,5 @@
 
 en:
   hello: "Hello world"
+  spree:
+    logged_in_succesfully: "Logged In Succesfully"
