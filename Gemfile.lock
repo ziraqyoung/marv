@@ -145,6 +145,7 @@ GEM
       railties (>= 5)
     erubi (1.10.0)
     execjs (2.8.1)
+    ffaker (2.19.0)
     ffi (1.15.4)
     flatpickr (4.6.6.0)
     friendly_id (5.4.2)
@@ -382,12 +383,18 @@ GEM
       spree_core (>= 4.3.0.rc3)
       sprockets (~> 4.0)
       turbolinks (~> 5.2)
+    spree_gateway (3.9.3)
+      spree_core (>= 3.7.0, < 5.0)
+      spree_extension
     spree_i18n (5.0.1)
       i18n_data
       kaminari-i18n
       rails-i18n
       spree_core (>= 4.2.0.rc3, < 5.0)
       spree_extension
+    spree_sample (4.3.0.rc3)
+      ffaker (~> 2.9)
+      spree_core (>= 4.3.0.rc3)
     spring (3.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -478,7 +485,9 @@ DEPENDENCIES
   spree_backend (= 4.3.0.rc3)
   spree_emails (= 4.3.0.rc3)
   spree_frontend (= 4.3.0.rc3)
+  spree_gateway (~> 3.9)
   spree_i18n (~> 5.0)
+  spree_sample
   spring
   sshkit-sudo
   turbolinks (~> 5)
