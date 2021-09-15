@@ -27,11 +27,11 @@ gem 'jbuilder', '~> 2.7'
 # gem 'spree_gateway', '~> 3.9'
 # gem 'spree_i18n', '~> 5.0'
 
-gem 'spree', '4.3.0.rc3' # core and API
-gem 'spree_frontend', '4.3.0.rc3' # Rails storefront (optional)
-gem 'spree_backend', '4.3.0.rc3' # Rails admin panel (optional)
+gem 'spree', '~> 4.3' # core and API
+gem 'spree_frontend', '~> 4.3' # Rails storefront (optional)
+gem 'spree_backend', '~> 4.3' # Rails admin panel (optional)
 gem 'spree_auth_devise', '~> 4.3' # Devise integration (optional)
-gem 'spree_emails', '4.3.0.rc3' # transactional emails (optional
+gem 'spree_emails', '~> 4.3' # transactional emails (optional
 gem 'spree_i18n', '~> 5.0' # translation files (optional)
 
 # Use Active Storage variant
