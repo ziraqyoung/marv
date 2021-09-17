@@ -66,7 +66,6 @@ group :development do
   gem 'capistrano-rails', '~> 1.6', require: false
   gem 'capistrano-rbenv', '~> 2.1', require: false
   gem 'capistrano3-puma',   require: false
-gem 'sshkit-sudo'
 end
 
 group :test do

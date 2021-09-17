@@ -406,8 +406,6 @@ GEM
     sshkit (1.21.2)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    sshkit-sudo (0.1.0)
-      sshkit (~> 1.8)
     state_machines (0.5.0)
     state_machines-activemodel (0.8.0)
       activemodel (>= 5.1)
@@ -489,7 +487,6 @@ DEPENDENCIES
   spree_i18n (~> 5.0)
   spree_sample
   spring
-  sshkit-sudo
   turbolinks (~> 5)
   tzinfo-data
   unicorn (~> 6.0)
