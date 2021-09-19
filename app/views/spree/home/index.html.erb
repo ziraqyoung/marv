@@ -1,7 +1,7 @@
 <% if @homepage %>
-    <% @homepage.cms_sections.each do |section| %>
-      <%= build_section(section) %>
-    <% end %>
+  <% @homepage.cms_sections.each do |section| %>
+    <%= build_section(section) %>
+  <% end %>
 <% else %>
   <div id="missingHomepage" class="container my-5">
     <div class="row my-5">
