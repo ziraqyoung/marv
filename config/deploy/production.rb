@@ -6,10 +6,7 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-server '178.79.174.108', user: 'deploy', roles: %w{app db web}
-
-set :default_env, { 'PASSENGER_INSTANCE_REGISTRY_DIR' => '/home/deploy/passenger_temp' }
-
+server '134.122.96.164', user: 'deploy', roles: %w{app db web}
 
 # role-based syntax
 # ==================
